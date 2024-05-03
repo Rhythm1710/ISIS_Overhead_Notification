@@ -5,8 +5,8 @@ import time
 
 # ---------------------------- CONSTANTS ------------------------------- #\
 
-my_email = "rhythm.hacker17@gmail.com"
-my_password = "xkkxieymtseyzcqu"
+my_email = ""
+my_password = ""
 my_lat = 30.733315
 my_long = 76.779419
 
@@ -65,7 +65,7 @@ while True:
 
         else:
             from_addr = my_email
-            to_addrs = {"soumyadev56@gmail.com", my_email}
+            to_addrs = {"", my_email}
             subject = "ISS IS ABOVE WATCH IT!"
             message = f"International Space station is above your head"
             email_body = f"Subject:{subject}\n\n{message}"
